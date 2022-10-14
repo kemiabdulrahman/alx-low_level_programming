@@ -20,11 +20,12 @@ putchar(number_left);
 putchar(number_right);
 if ((number_left < 56) || (number_right < 57))
 {
-break;
-}
 putchar(',');
 putchar(' ');
 }
+number_right++;
+}
+number_left++;
 }
 putchar('\n');
 return (0);
