@@ -10,7 +10,7 @@ int first_number;
 int second_number;
 for (first_number = 0; first_number < 100; first_number++)
 {
-for (second_number = first_number + 1, second_number < 100; second_number++)
+for (second_number = first_number + 1; second_number < 100; second_number++)
 {
 putchar (first_number / 10 + '0');
 putchar (first_number % 10 + '0');
