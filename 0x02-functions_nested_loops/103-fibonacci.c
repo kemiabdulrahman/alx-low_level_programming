@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main - main block
  * Description: Print the sum of even fibonacci numbers up to a fib value
  * not exceeding 4,000,000.
