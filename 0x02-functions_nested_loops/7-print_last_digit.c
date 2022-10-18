@@ -3,6 +3,7 @@
  * print_last_digit - last digit of a number
  *
  * @n: int type number
+ * Description: prints the last digit of a number
  * Return: Always 0.
  */
 int print_last_digit(int n)
