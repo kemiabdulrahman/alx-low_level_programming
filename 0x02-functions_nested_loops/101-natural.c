@@ -23,4 +23,5 @@ continue;
 }
 printf("%d", total);
 printf("\n");
+return (0);
 }
