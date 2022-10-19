@@ -11,16 +11,16 @@
 
 void print_alphabet_x10(void)
 {
-int alphabet;
-int increase;
-increase = 0;
-while (increase < 0)
+int alphabet_count = 0;
+while (alphabet_count < 10)
 {
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+char ch = 'a';
+while (ch <= 'z')
 {
-_putchar(alphabet);
+_putchar(ch);
+ch++
 }
-increase++;
+alphabet_count++;
 _putchar('\n');
 }
 }
